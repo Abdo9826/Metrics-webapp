@@ -5,6 +5,9 @@ Metrics webapp is a React-Redux application consists of two pages, first oage fo
 - See different flags .
 - See different details like {population , location, state, ....}.
 
+## Live virsion 
+[Live link](https://62e1af14570c7107185ee91d--chic-pixie-431455.netlify.app/)
+
 
 # Screenshots
 
