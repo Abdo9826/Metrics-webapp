@@ -33,7 +33,7 @@ function Descriptions() {
             />
           </li>
           <li className='text-danger list-group-item'>Capital : {d.capital}</li>
-          <li className='text-danger list-group-item'>rea : {d.area}</li>
+          <li className='text-danger list-group-item'>area : {d.area}</li>
           <li className='text-danger list-group-item'>status : {d.status}</li>
           <li className='text-danger list-group-item'>region : {d.region}</li>
           <li className='text-danger list-group-item'>
