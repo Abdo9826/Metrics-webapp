@@ -1,4 +1,4 @@
-// /*eslint-disable*/
+/*eslint-disable*/
 import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
