@@ -1,19 +1,29 @@
+/*eslint-disable*/
+
 // action type
 
 const SET_DATA = 'SET_DATA';
+const SET_DESCRIPTIONS = 'SET_DESCRIPTIONS';
 
-const url = 'https://restcountries.com/v3.1/all';
+
 
 export const Setdata = () => async (dispatch) => {
+  const url = 'https://restcountries.com/v3.1/all';
   const response = await fetch(url);
   const json = await response.json();
   const details = json;
+  console.log(details)
 
   dispatch({
     type: SET_DATA,
     details,
   });
 };
+
+export const Setdescritions = (id) => ({
+  type: SET_DESCRIPTIONS,
+  id,
+});
 
 // Reducer
 const initstate = [];

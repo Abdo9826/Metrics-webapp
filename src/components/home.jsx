@@ -1,4 +1,5 @@
-/*eslint-disable*/
+// /*eslint-disable*/
+import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { Setdata } from '../redux/data';
@@ -14,17 +15,14 @@ function Home() {
 
   const renderlist = alldata.map((d) => {
     return (
-      <div key={d.name.common} className='card bg-danger col'>
+      <div key={d.name.common} className=' cardd bg-danger  col'>
         <img className='card-img-top' src={d.flags.svg} alt={d.name.common} />
-        <div className='card-body bg-danger'>
-          <h5 className='card-title'>{d.name.common}</h5>
-          <p className='card-text'>Capital : {d.capital}</p>
-          <p className='card-text'>population : {d.population}</p>
-          <p className='card-text'>timezones : {d.timezones}</p>
-          <a href={d.maps.googleMaps} className='btn btn-primary'>
-            check
-          </a>
-        </div>
+
+        <Link className='name' to={`/${d.name.common}`}>
+          <button type='button' className='btn btn-danger'>
+            {d.name.common}
+          </button>
+        </Link>
       </div>
     );
   });
