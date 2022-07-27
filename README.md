@@ -13,6 +13,7 @@ Metrics webapp is a React-Redux application consists of two pages, first oage fo
 ![app](https://user-images.githubusercontent.com/102296263/181366507-22c6d5ad-83c4-48bd-b488-d526d86209eb.PNG)
 
 ## selected country 
+![details](https://user-images.githubusercontent.com/102296263/181368559-d3293f26-99c2-4294-b23f-c701592fd90f.PNG)
 
 
 
