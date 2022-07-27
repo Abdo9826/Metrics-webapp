@@ -1,30 +1,27 @@
-### Space-Travelers-Hub
+### Metrics webapp
 
-Space Xplore is a React-Redux application consists of Rockets, Missions, and the My Profile section. it that allows you to:
+Metrics webapp is a React-Redux application consists of two pages, first oage for all contries, second page is about details of selected country . it that allows you to:
 
-- See different Rockets and reserve any one.
-- See different Missions and Join any one.
-- Display your reserved rockets and joined missions in profile section.
+- See different flags .
+- See different details like {population , location, state, ....}.
+
 
 # Screenshots
 
 
-## Rockets
-![rockect](https://user-images.githubusercontent.com/102296263/180184662-d601b20b-e38b-4ace-88e6-96eaeb46592c.PNG)
+## Allcontries
+![app](https://user-images.githubusercontent.com/102296263/181366507-22c6d5ad-83c4-48bd-b488-d526d86209eb.PNG)
+
+## selected country 
 
 
-## Missions 
-![missin](https://user-images.githubusercontent.com/102296263/180184872-4b4aaf3a-6602-4153-8845-57a1ca291c2d.PNG)
-
-## My_profile 
-![profile](https://user-images.githubusercontent.com/102296263/180184992-0671aefe-9c25-4755-8641-64d855f71393.PNG)
 
 
 
 ## Built With
 
 - Language: ES6
-- Technologies: CSS, Linter, gitflow, React, Redux
+- Technologies: CSS, Linter, gitflow, React, Redux, APIs
 
 
 # Getting Started
