@@ -8,6 +8,11 @@ Metrics webapp is a React-Redux application consists of two pages, first oage fo
 ## Live virsion 
 [Live link](https://62e1af14570c7107185ee91d--chic-pixie-431455.netlify.app/)
 
+## QR code for mobile
+
+![Qr](https://user-images.githubusercontent.com/102296263/181487809-b78fead6-e7d7-4c8f-8c75-83f25319565b.PNG)
+
+
 
 # Screenshots
 
