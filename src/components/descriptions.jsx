@@ -1,4 +1,3 @@
-/*eslint-disable*/
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useParams } from 'react-router-dom';
@@ -16,7 +15,6 @@ function Descriptions() {
       .get(`https://restcountries.com/v3.1/name/${id}`)
       .then((res) => {
         setData(res.data);
-        console.log(res.data);
       })
       .catch((err) => console.log(err));
   };
