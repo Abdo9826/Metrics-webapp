@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Setdata } from '../redux/data';
+import { Setdata, search } from '../redux/data';
 
 function Home() {
   const alldata = useSelector((state) => state.data);
@@ -9,7 +9,12 @@ function Home() {
 
   useEffect(() => {
     dispatch(Setdata());
-  });
+  }, [dispatch]);
+
+  const Dropdown = async (e) => {
+    await dispatch(Setdata());
+    dispatch(search(e.target.value));
+  };
 
   const renderlist = alldata.map((d) => (
     <div key={d.name.common} className=" cardd bg-danger  col">
@@ -25,6 +30,14 @@ function Home() {
 
   return (
     <div className="container bg-danger">
+      <select className="drop" onChange={Dropdown}>
+        <option>Filter by Conentens</option>
+        <option value="Africa">Africa</option>
+        <option value="North America">North America</option>
+        <option value="Asia">Asia</option>
+        <option value="South America">South America</option>
+      </select>
+      ;
       <div className="row row-cols-2">{renderlist}</div>
     </div>
   );
