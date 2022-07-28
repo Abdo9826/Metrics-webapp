@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if header render correctly 1`] = `
+<div
+  className="container bg-danger"
+>
+  <div
+    className="row row-cols-2"
+  />
+</div>
+`;
