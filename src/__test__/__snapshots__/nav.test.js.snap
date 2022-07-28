@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test if header render correctly 1`] = `
+<nav>
+  <a
+    className="white"
+    href="/"
+    onClick={[Function]}
+  >
+    <h3>
+       __
+    </h3>
+  </a>
+  <h1>
+    All conturies
+  </h1>
+</nav>
+`;
