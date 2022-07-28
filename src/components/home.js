@@ -9,7 +9,7 @@ function Home() {
 
   useEffect(() => {
     dispatch(Setdata());
-  }, []);
+  });
 
   const renderlist = alldata.map((d) => (
     <div key={d.name.common} className=" cardd bg-danger  col">

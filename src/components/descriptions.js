@@ -15,7 +15,7 @@ function Descriptions() {
 
   useEffect(() => {
     fetchdetails();
-  }, []);
+  });
 
   const country = data.map((d) => (
     <div key={d.name.common} className="card ">
