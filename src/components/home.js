@@ -36,6 +36,7 @@ function Home() {
         <option value="North America">North America</option>
         <option value="Asia">Asia</option>
         <option value="South America">South America</option>
+        <option value="Europe">Europe</option>
       </select>
       ;
       <div className="row row-cols-2">{renderlist}</div>
